@@ -16,44 +16,38 @@
 
 <body>
     <header>
-        <img src="./images/logo.png" width="20%" class="logo">
-
-        <nav>
-            <nav class="categorias" alt="Categorias">
-                <ul>
-                    <li><a href="#">Nombre</a></li>
-                    <li><a href="#">Nombre</a></li>
-                    <li><a href="#">Nombre</a></li>
-                    <li><a href="#">Nombre</a></li>
-                    <li><a href="#">Nombre</a></li>
-                </ul>
-            </nav>
+        
+        <div class="main-header-top-bar">
+            <img src="./images/logo.png" width="20%" class="logo">    
             <nav class="navbar">
 
                 <input type="search" name="busquedaProd" placeholder="Buscar productos, marcas: ">
 
                 <button type="submit"><i class="fa fa-search"></i></button>
 
-            </nav>
+                <nav class="main-navbar">
+                    <ul class="left-navbar">
+                        <li><a href="#">Animes</a></li>
+                        <li><a href="#">Cines</a></li>
+                        <li><a href="#">Videojuegos</a></li>
+                    </ul>
+                    </nav>
 
-            <nav class="siteLogin">
-                <ul>
-                    <li><a href="/login">
-                            <i class="fas fa-user"></i>
-                        </a></li>
-                    <li><a href="/carrito">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a></li>
-                </ul>
-            </nav>
-
-        </nav>
-        <br>
-        <div class="burger-menu">
-            <i class="fa fa-bars burger"></i>
         </div>
-        <br>
-    </header>
+        <a href="#" class="hamburger-button">
+            <i class="fas fa-bars"></i>
+        </a>
+   
+
+            <ul class="right-navbar">
+                <li><a href="/register"> <i class="fas fa-credit-card"></i></a></li>
+                <li><a href="/login"> <i class="fas fa-user"></i></a></li>
+                <li><a href="#"> <i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        
+
+        </header>
+
 
     <main>
         <article>
@@ -93,15 +87,17 @@
         </article>
 
         <footer>
-            <section>
+            <hr class="solid">
+            <section class="contactos">
                 <article>
-                    <p>Para Mas informacion
-                        //contacto
-                    </p>
+                    <p class="footer-mas-info">Para Mas informacion contactarnos:</p> <br>
+                    <p>calabozo@gmail.com</p> <br>
+                    <p>11-4895-2024</p> <br>
+                    <p>Calle falsa 123</p>
                 </article>
             </section>
-            <br>
-            <section>
+            <hr class="solid">
+            <section class="copyright">
                 <article>
                     <h5>Copyright © 1999-2021 </h5>
                 </article>
